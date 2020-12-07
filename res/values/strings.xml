@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="pokemon_id">001</string>
+    <string name="pokemon_name">bulbasaur</string>
+    <!--menu contextual-->
+    <string name="actualizar">Recharge</string>
+    <string name="action_nuevo">New</string>
+    <string name="eliminar">Delete</string>
+    <string name="item_actualizar">Recharge item</string>
+    <string name="item">Item</string>
+    <string name="item_nuevo">New Item</string>
+    <string name="item_eliminar">Delete Item</string>
+    <string name="Visualizar">See Item</string>
+    <string name="item_new_baya">New Baya</string>
+    <string name="item_new_pokemon">New pokemon</string>
+    <string name="item_new_move">New move</string>
+
+</resources>
