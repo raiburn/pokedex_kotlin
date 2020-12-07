@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="100"
+        android:title="@string/item_nuevo"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/pokemon5" />
+    <menu>
+        <item
+            android:id="@+id/action_pokemon"
+            android:orderInCategory="101"
+            android:title="@string/item_new_pokemon"
+            app:showAsAction="ifRoom|withText"
+            android:icon="@drawable/magikarp"/>
+        <item
+            android:id="@+id/action_move"
+            android:orderInCategory="101"
+            android:title="@string/item_new_move"
+            app:showAsAction="ifRoom|withText"
+            android:icon="@drawable/clipart2808161"/>
+        <item
+            android:id="@+id/action_fruit"
+            android:orderInCategory="101"
+            android:title="@string/item_new_baya"
+            app:showAsAction="ifRoom|withText"
+            android:icon="@drawable/fruit"/>
+    </menu>
+    <item
+        android:id="@+id/action_recharge"
+        android:orderInCategory="101"
+        android:title="@string/item_actualizar"
+        app:showAsAction="ifRoom|withText"/>
+
+    <!--    android:icon="@drawable/pokemon5"/>-->
+
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="102"
+        android:title="@string/item_eliminar"
+        app:showAsAction="ifRoom|withText"/>
+
+
+    <!--    android:icon="@drawable/pokemon5"/>-->
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="102"
+        android:title="@string/item_eliminar"
+
+        app:showAsAction="never|ifRoom"/>
+    <!--android:icon="@drawable/pokemon5"-->
+</menu>
